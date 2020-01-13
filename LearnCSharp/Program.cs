@@ -7,7 +7,7 @@ namespace FootballGame
     {
         static void Main(string[] args)
         {
-            Player s1 = new Player("Titans", "King", "Henry", 22);
+            RunningBack s1 = new RunningBack("Titans", "King", "Henry", 22);
             Player s2 = new Player("Cheifs", "Patrick", "Mahomes", 15);
             //Player s2 = new Player();  // user inputs a player
 

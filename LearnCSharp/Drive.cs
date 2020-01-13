@@ -36,7 +36,7 @@ namespace FootballGame
         {
             //int yards;
             Random rnd = new Random();
-            yards = rnd.Next(3, 7);  //need to weigh this and add chance of drops
+            yards = rnd.Next(2, 7);  //need to weigh this and add chance of drops
             PassYards += yards;
             TotalYards += yards;
             player.TotYards += yards;
